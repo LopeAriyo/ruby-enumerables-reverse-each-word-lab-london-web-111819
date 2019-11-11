@@ -1,8 +1,8 @@
 
   def reverse_each_word (sentence)
 
-    reversed_sentence = []
-    i = sentence.length - 1
+    reversed_sentence = ""
+    i = sentence.length 
 
     until i == 0 do
 
