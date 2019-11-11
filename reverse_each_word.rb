@@ -10,7 +10,7 @@
 
     until i == 0 do
 
-      new_sentence.push(sentence_blocks[i].reverse)
+      new_sentence.push(sentence_blocks[i])
       i -= 1
     end
 
