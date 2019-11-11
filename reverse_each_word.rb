@@ -6,7 +6,7 @@
 
     until i == 0 do
 
-      reversed_sentence << sentence[i]
+      reversed_sentence.push(sentence[i])
       i -= 1
     end
 
