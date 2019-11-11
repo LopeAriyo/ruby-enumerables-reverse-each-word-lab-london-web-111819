@@ -6,7 +6,7 @@ class String
     reversed_sentence = ""
     i = sentence.length - 1
 
-    until i == 0 do |i|
+    until i == 0 do 
 
       reversed_sentence << sentence[i]
       i -= 1
