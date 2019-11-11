@@ -3,15 +3,15 @@
 
     reversed_sentence = []
     sentence_blocks = sentence.split(" ")
-    i = sentence.length
+    word = sentence.length
 
 
 
-    until i == 0 do
+    until word == 0 do {|word| }
 
       reversed_sentence.collect((sentence_blocks[i].reverse))
       #reversed_sentence.push(sentence_blocks[i])
-      i -= 1
+      word -= 1
     end
 
     p reversed_sentence.join(" ")
