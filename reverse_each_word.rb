@@ -2,7 +2,6 @@
   def reverse_each_word (sentence)
 
     reversed_sentence = []
-    new_sentence = []
     sentence_blocks = sentence.split(" ")
     i = sentence.length
 
@@ -10,10 +9,10 @@
 
     until i == 0 do
 
-      new_sentence.push(sentence_blocks[i])
+      reversed_sentence.push(sentence_blocks[i])
       i -= 1
     end
 
-    p sentence_blocks
+    p reverse_sentence
 
   end
