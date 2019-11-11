@@ -1,7 +1,7 @@
 
   def reverse_each_word (sentence)
 
-    reversed_sentence = []
+    reversed_sentence = ""
     sentence_blocks = sentence.split(" ")
     i = sentence.length
 
@@ -13,6 +13,6 @@
       i -= 1
     end
 
-    p sentence_blocks
+    p sentence_blocks[1].
 
   end
