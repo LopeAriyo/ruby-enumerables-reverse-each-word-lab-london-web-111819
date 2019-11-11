@@ -14,6 +14,6 @@
       i -= 1
     end
 
-    p reversed_sentence
+    p reversed_sentence.join(" ")
 
   end
