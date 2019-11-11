@@ -7,11 +7,11 @@
 
 
 
-    until word == 0 do {|word| }
+    sentence_blocks.collect do |sentence| 
 
-      reversed_sentence.collect((sentence_blocks[i].reverse))
+      reversed_sentence.push(sentence_blocks.reverse)
       #reversed_sentence.push(sentence_blocks[i])
-      word -= 1
+      #word -= 1
     end
 
     p reversed_sentence.join(" ")
