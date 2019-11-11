@@ -9,7 +9,7 @@
 
     until i == 0 do
 
-      reversed_sentence.push((sentence_blocks[i].reverse))
+      reversed_sentence.collect((sentence_blocks[i].reverse))
       #reversed_sentence.push(sentence_blocks[i])
       i -= 1
     end
