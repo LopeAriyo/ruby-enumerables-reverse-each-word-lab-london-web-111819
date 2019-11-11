@@ -13,6 +13,6 @@
       i -= 1
     end
 
-    p reverse_sentence
+    p reversed_sentence
 
   end
