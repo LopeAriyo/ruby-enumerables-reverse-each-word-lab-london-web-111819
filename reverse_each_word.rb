@@ -14,6 +14,6 @@
       i -= 1
     end
 
-    p sentence_blocks
+    p reversed_sentence
 
   end
