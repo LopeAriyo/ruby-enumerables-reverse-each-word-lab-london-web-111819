@@ -5,7 +5,7 @@
     sentence_blocks = sentence.split(" ")
     i = sentence.length
 
-    
+
 
     until i == 0 do
 
