@@ -2,7 +2,7 @@
   def reverse_each_word (sentence)
 
     reversed_sentence = ""
-    i = sentence.length 
+    i = sentence.length
 
     until i == 0 do
 
