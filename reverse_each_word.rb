@@ -14,6 +14,6 @@
       i -= 1
     end
 
-    p new_sentence
+    p sentence_blocks
 
   end
