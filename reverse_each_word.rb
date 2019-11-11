@@ -1,6 +1,4 @@
-require 'rspec'
 
-class String
   def reverse_each_word (sentence)
 
     reversed_sentence = ""
@@ -15,4 +13,4 @@ class String
     p reversed_sentence
 
   end
-end
+
