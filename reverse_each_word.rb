@@ -13,6 +13,6 @@
       i -= 1
     end
 
-    p reversed_sentence
+    p sentence_blocks
 
   end
