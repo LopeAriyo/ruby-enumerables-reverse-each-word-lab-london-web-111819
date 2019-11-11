@@ -7,7 +7,7 @@
 
 
 
-    sentence_blocks.collect do |sentence| 
+    sentence_blocks.collect do |sentence|
 
       reversed_sentence.push(sentence_blocks.reverse)
       #reversed_sentence.push(sentence_blocks[i])
