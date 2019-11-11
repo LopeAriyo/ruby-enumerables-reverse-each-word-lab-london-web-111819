@@ -2,12 +2,10 @@
   def reverse_each_word (sentence)
 
     reversed_sentence = []
-    sentence_blocks = sentence.split(" ")
-    word = sentence.length
+    words = sentence.split(" ")
+    
 
-
-
-    sentence_blocks.collect do |sentence|
+    words.collect do |sentence|
 
       reversed_sentence.push(sentence.reverse)
       #reversed_sentence.push(sentence_blocks[i])
