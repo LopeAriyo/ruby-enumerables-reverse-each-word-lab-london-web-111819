@@ -9,10 +9,11 @@
 
     until i == 0 do
 
+      sentence_blocks[i].reverse
       #reversed_sentence.push(sentence_blocks[i])
       i -= 1
     end
 
-    p sentence_blocks[1].reverse
+    p sentence_blocks[i].reverse
 
   end
